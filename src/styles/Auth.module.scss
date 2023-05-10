@@ -1,0 +1,94 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 90px auto;
+  font-family: Tahoma;
+
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+  }
+
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+
+    label {
+      margin-bottom: 5px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    input[type='text'],
+    input[type='password'] {
+      margin-top: 5px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      font-size: 16px;
+      width: 95%;
+      background-color: #fff;
+      color: #333;
+
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  button[type='submit'] {
+    padding: 10px 20px;
+    background-color: #383838;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #545454;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .loginForm {
+      padding: 10px;
+      margin: 10px auto;
+    }
+
+    .formGroup {
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    input[type='text'],
+    input[type='password'] {
+      font-size: 14px;
+      padding: 8px;
+    }
+
+    button[type='submit'] {
+      margin-top: 10px;
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+}

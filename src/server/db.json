@@ -1,0 +1,240 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@mail.com",
+      "password": "$2a$10$i9Bb0jsKWzCliytaX/Jc0.GQOQRgMk8B9K.9UIcc33Q1GPN3K//dO",
+      "tickets": [
+        {
+          "id": 1,
+          "name": "frs ticket",
+          "dateEvent": "2023-05-01",
+          "datePurchase": "2023-05-01"
+        },
+        {
+          "id": 2,
+          "name": "second ticket",
+          "dateEvent": "2023-05-01",
+          "datePurchase": "2023-05-01"
+        }
+      ],
+      "avatarSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHKKVogOI8JHHSDzM5tmIgGd9jD_NcscrmKw&usqp=CAU",
+      "data": {
+        "firstName": "Петр",
+        "lastName": "Иванов",
+        "middleName": "Александрович",
+        "description": "Я просто обожаю посещать выставки и музеи! Это такой увлекательный и захватывающий опыт, который позволяет мне расширять свой кругозор и узнавать новое о различных культурах и искусствах."
+      }
+    }
+  ],
+  "locationsTime": [
+    {
+      "motocycles": {
+        "id": 1,
+        "name": "Мотоциклы",
+        "dateEvent": "2023-05-05"
+      }
+    }
+
+  ],
+  "achievements": [
+    {
+      "title": "10 лет работы",
+      "description": "Мы открылись для посетителей в 2010 году",
+      "image": "https://via.placeholder.com/300x200"
+    },
+    {
+      "title": "1000 экспонатов",
+      "description": "У нас представлены экспонаты из разных эпох",
+      "image": "https://via.placeholder.com/300x200"
+    },
+    {
+      "title": "500 000 посетителей",
+      "description": "Мы рады каждому гостю и стараемся сделать ваш визит незабываемым",
+      "image": "https://via.placeholder.com/300x200"
+    },
+    {
+      "title": "213213",
+      "description": "Мы рады каждому гостю и стараемся сделать ваш визит незабываемым",
+      "image": "https://via.placeholder.com/300x200"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Открытие выставки автомобилей",
+      "date": "2021-05-15",
+      "description": "На выставке будут представлены автомобили разных эпох и типов: от раритетных моделей до современных гоночных машин.",
+      "imageUrl": "https://tinypng.com/images/social/website.jpg"
+    },
+    {
+      "id": 2,
+      "title": "День открытых дверей",
+      "date": "2021-06-20",
+      "description": "Музей приглашает всех желающих на экскурсию по его экспозициям и техническим объектам, а также на участие в мастер-классах и конкурсах.",
+      "imageUrl": "https://tinypng.com/images/social/website.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Концерт в зале музыкальных инструментов",
+      "date": "2021-07-10",
+      "description": "В зале музыкальных инструментов состоится концерт классической музыки, на котором звучат произведения известных композиторов, исполненные на античных и современных музыкальных инструментах.",
+      "imageUrl": "https://tinypng.com/images/social/website.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Выставка летательных аппаратов",
+      "date": "2021-08-25",
+      "description": "На выставке будут представлены самолеты разных эпох и типов: от древних летательных аппаратов до современных боевых машин.",
+      "imageUrl": "https://tinypng.com/images/social/website.jpg"
+    }
+  ],
+  "technique": [
+    {
+      "id": 1,
+      "img": "moto.jpg",
+      "name": "motocycles",
+      "title": "Мотоциклы"
+    },
+    {
+      "id": 2,
+      "img": "airplane.jpg",
+      "name": "airplanes",
+      "title": "Самолеты"
+    },
+    {
+      "id": 3,
+      "img": "helicopter.jpg",
+      "name": "helicopters",
+      "title": "Вертолеты"
+    },
+    {
+      "id": 4,
+      "img": "car.jpg",
+      "name": "cars",
+      "title": "Машины"
+    },
+    {
+      "id": 5,
+      "img": "bicycle.jpg",
+      "name": "bicycles",
+      "title": "Велосипеды"
+    },
+    {
+      "id": 6,
+      "img": "tank.jpg",
+      "name": "tanks",
+      "title": "Танки"
+    }
+  ],
+  "categories": {
+    "motocycles": [
+      {
+        "id": 1,
+        "title": "Harley-Davidson Electra Glide",
+        "description": "Электра Глайд - круизер от компании Harley-Davidson. Первый раз модель была выпущена в 1965 году.",
+        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "creator": "Harley-Davidson",
+        "yearCreate": 1965
+      },
+      {
+        "id": 2,
+        "title": "Indian Chief Classic",
+        "description": "Indian Chief Classic - круизер от компании Indian Motorcycle. Первый раз модель была выпущена в 1922 году.",
+        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "creator": "Indian Motorcycle",
+        "yearCreate": 1922
+      }
+    ],
+    "airplanes": [
+      {
+        "id": 1,
+        "title": "Boeing 747",
+        "description": "Boeing 747 — широкофюзеляжный пассажирский самолёт американской компании Boeing. Самый крупный пассажирский самолет в мире.",
+        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "creator": "Boeing",
+        "yearCreate": 1969
+      },
+      {
+        "id": 2,
+        "title": "Airbus A380",
+        "description": "Airbus A380 — широкофюзеляжный двухпалубный пассажирский самолёт европейской компании Airbus. Самый большой пассажирский самолет в мире.",
+        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "creator": "Airbus",
+        "yearCreate": 2005
+      }
+    ],
+    "helicopters": [
+      {
+        "id": 1,
+        "title": "Bell 412",
+        "description": "Bell 412 — среднемагистральный многоцелевой вертолёт компании Bell Helicopter Textron. Первый раз модель была выпущена в 1979 году.",
+        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "creator": "Bell Helicopter Textron",
+        "yearCreate": 1979
+      },
+      {
+        "id": 2,
+        "title": "Mil Mi-26",
+        "description": "Mil Mi-26 — крупнейший в мире серийный вертолёт. Разработан в конце 70-х годов в СССР.",
+        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "creator": "Mil Moscow Helicopter Plant",
+        "yearCreate": 1980
+      }
+    ],
+    "cars": [
+      {
+        "id": 1,
+        "title": "Ford Model T",
+        "description": "Ford Model T — автомобиль, выпускавшийся компанией Ford Motor Company с 1908 по 1927 годы. Считается одним из первых массовых автомобилей в мире.",
+        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "creator": "Ford Motor Company",
+        "yearCreate": 1908
+      },
+      {
+        "id": 2,
+        "title": "Toyota Corolla",
+        "description": "Toyota Corolla — автомобиль, выпускающийся японской компанией Toyota с 1966 года. Является самым продаваемым автомобилем в мире.",
+        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "creator": "Toyota Motor Corporation",
+        "yearCreate": 1966
+      }
+    ],
+    "bicycles": [
+      {
+        "id": 1,
+        "title": "Trek 520",
+        "description": "Trek 520 - туристический велосипед с жесткой рамой, предназначенный для дальних поездок и путешествий.",
+        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "creator": "Trek Bicycle Corporation",
+        "yearCreate": 1983
+      },
+      {
+        "id": 2,
+        "title": "Giant Defy Advanced Pro 0",
+        "description": "Giant Defy Advanced Pro 0 - шоссейный велосипед, разработанный для гонок на дальние дистанции.",
+        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "creator": "Giant Manufacturing Co. Ltd.",
+        "yearCreate": 2018
+      }
+    ],
+    "tanks": [
+      {
+        "id": 1,
+        "title": "T-34",
+        "description": "Т-34 — советский средний танк времён Второй мировой войны, созданный конструктором Михаилом Кошкиным. Считается одним из лучших танков в истории.",
+        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "creator": "Кировский завод",
+        "yearCreate": 1940
+      },
+      {
+        "id": 2,
+        "title": "M1 Abrams",
+        "description": "M1 Abrams — американский основной боевой танк. Был принят на вооружение в 1980 году.",
+        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "creator": "General Dynamics Land Systems",
+        "yearCreate": 1980
+      }
+    ]
+  }
+}

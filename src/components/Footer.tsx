@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Footer.module.scss";
 import Logo from "../images/logo.png"
+import {Link} from "react-router-dom";
 
 const Footer: React.FC = () => {
     return (
@@ -12,7 +13,7 @@ const Footer: React.FC = () => {
                     <a href="#">О музее</a>
                     <a href="#">Время работы</a>
                     <a href="#">Вакансии</a>
-                    <a href="#">Контакты</a>
+                    <Link to={'/contacts'}>Контакты</Link>
                 </div>
 
                 <div className={styles.address}>

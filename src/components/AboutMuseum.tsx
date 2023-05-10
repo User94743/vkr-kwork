@@ -9,7 +9,6 @@ interface AchievementProps {
 }
 
 
-
 const Achievement: React.FC<AchievementProps> = ({
                                                      title,
                                                      description,
@@ -17,7 +16,7 @@ const Achievement: React.FC<AchievementProps> = ({
                                                  }) => {
     return (
         <div className={styles.achievement}>
-            <img src={image} alt={title} className={styles.achievementImage} />
+            <img src={image} alt={title} className={styles.achievementImage}/>
             <div className={styles.achievementContent}>
                 <h3 className={styles.achievementTitle}>{title}</h3>
                 <p className={styles.achievementDescription}>{description}</p>

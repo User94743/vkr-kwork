@@ -13,6 +13,7 @@ import {useActions} from "./hooks/actions";
 import Cabinet from "./components/Cabinet";
 import PrivateRoute from "./hooks/privateRoute";
 import Location from "./components/Location/Location";
+import Contacts from "./components/Contacts";
 
 const App: FC = () => {
     const {addUser} = useActions()
@@ -46,10 +47,10 @@ const App: FC = () => {
               <Route path={"/login"} element={<Login />} />
               <Route path={"/registration"} element={<Registration />} />
               <Route path={"/location/:local"} element={<Location />} />
+              <Route path={"/contacts"} element={<Contacts />} />
               <Route element={<PrivateRoute/>}>
                   <Route path={"/cabinet"} element={<Cabinet />} />
               </Route>
-
           </Routes>
           <Footer />
       </>

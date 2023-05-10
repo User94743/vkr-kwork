@@ -25,12 +25,14 @@ const Locations: React.FC = () => {
             <h2 className={styles.locations__title}>Локации</h2>
             <div className={styles.locations__list}>
                 {locations.map((location) => (
-                    <Link to={`/location/${location.name}`}>
+
                         <div className={styles.locations__item} key={location.name}>
+                            <Link to={`/location/${location.name}` }>
                             <img src={require(`../images/${location.img}`)}  alt={location.name} />
                             <div className={styles.locations__item__name}>{location.title}</div>
+                            </Link>
                         </div>
-                    </Link>
+
 
                 ))}
             </div>

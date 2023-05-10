@@ -16,6 +16,24 @@
           "name": "second ticket",
           "dateEvent": "2023-05-01",
           "datePurchase": "2023-05-01"
+        },
+        {
+          "id": 3,
+          "name": "Вертолеты",
+          "dateEvent": "2023-09-05",
+          "datePurchase": "Invalid Date"
+        },
+        {
+          "id": 4,
+          "name": "Самолеты",
+          "dateEvent": "2023-07-05",
+          "datePurchase": "10.05.2023"
+        },
+        {
+          "id": 5,
+          "name": "Самолеты",
+          "dateEvent": "15.05.2023",
+          "datePurchase": "10.05.2023"
         }
       ],
       "avatarSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHKKVogOI8JHHSDzM5tmIgGd9jD_NcscrmKw&usqp=CAU",
@@ -32,10 +50,34 @@
       "motocycles": {
         "id": 1,
         "name": "Мотоциклы",
-        "dateEvent": "2023-05-05"
+        "dateEvent": "05.01.2023"
+      },
+      "airplanes": {
+        "id": 2,
+        "name": "Самолеты",
+        "dateEvent": "15.05.2023"
+      },
+      "helicopters": {
+        "id": 3,
+        "name": "Вертолеты",
+        "dateEvent": "17.04.2023"
+      },
+      "cars": {
+        "id": 4,
+        "name": "Машины",
+        "dateEvent": "14.08.2023"
+      },
+      "bicycles": {
+        "id": 5,
+        "name": "Велосипеды",
+        "dateEvent": "08.03.2023"
+      },
+      "tanks": {
+        "id": 6,
+        "name": "Танки",
+        "dateEvent": "09.04.2023"
       }
     }
-
   ],
   "achievements": [
     {

@@ -53,6 +53,9 @@ export const UserSlice = createSlice({
             state.description = ''
             state.avatarSrc = ''
             state.tickets = []
+        },
+        setTickets: (state:Data, action:PayloadAction<Ticket[]>) => {
+            state.tickets = action.payload
         }
     }
 })

@@ -1,4 +1,48 @@
 {
+  "vacancies": [
+    {
+      "title": "Менеджер по организации мероприятий",
+      "experience": "От 2 лет в организации мероприятий",
+      "image": "https://studcar.ru/wp-content/uploads/2017/03/event-menedjer-800x471.png",
+      "description": "Организация мероприятий в музее, в том числе концертов, выставок, презентаций.",
+      "salary": "от 50 000 рублей"
+    },
+    {
+      "title": "Гид-экскурсовод",
+      "experience": "От 1 года работы гидом",
+      "image": "https://peterburg.center/sites/default/files/052708a2toppeople1_5403214_ver1.0_640_4801.jpg",
+      "description": "Проведение экскурсий по музею, проведение обзорных экскурсий по городу.",
+      "salary": "от 30 000 рублей"
+    },
+    {
+      "title": "Куратор выставок",
+      "experience": "От 3 лет работы в качестве куратора выставок",
+      "image": "https://mostmag.ru/wp-content/uploads/2021/05/Dima-Portrait-2-602x400.jpg",
+      "description": "Разработка концепции выставок, организация экспозиций, работа с художниками и кураторами.",
+      "salary": "от 80 000 рублей"
+    },
+    {
+      "title": "Администратор музея",
+      "experience": "От 2 лет работы администратором в культурных учреждениях",
+      "image": "https://avatars.dzeninfra.ru/get-zen_doc/1585195/pub_5e6147de0da66b2a81385e7e_5e61524aa77af5721cd1677e/scale_1200",
+      "description": "Управление музеем, организация работы сотрудников, взаимодействие с посетителями.",
+      "salary": "от 50 000 рублей"
+    },
+    {
+      "title": "Специалист по PR",
+      "experience": "От 3 лет работы в PR-отделах культурных учреждений",
+      "image": "https://proforientator.ru/upload/iblock/c09/c0960843c0dc11f2b94e7a8ff08e2fb6.jpg",
+      "description": "Разработка и реализация PR-стратегии музея, организация пресс-конференций и медиа-мероприятий.",
+      "salary": "от 80 000 рублей"
+    },
+    {
+      "title": "Хранитель музейных коллекций",
+      "experience": "От 3 лет работы хранителем музейных коллекций",
+      "image": "http://www.nbchr.ru/virt_prof/style/images/hranitel.jpg",
+      "description": "Уход за музейными экспонатами, организация хранения и транспортировки коллекций.",
+      "salary": "от 60 000 рублей"
+    }
+  ],
   "users": [
     {
       "id": 1,
@@ -34,6 +78,18 @@
           "name": "Самолеты",
           "dateEvent": "15.05.2023",
           "datePurchase": "10.05.2023"
+        },
+        {
+          "id": 6,
+          "name": "Самолеты",
+          "dateEvent": "15.05.2023",
+          "datePurchase": "13.05.2023"
+        },
+        {
+          "id": 7,
+          "name": "Вертолеты",
+          "dateEvent": "17.04.2023",
+          "datePurchase": "13.05.2023"
         }
       ],
       "avatarSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHKKVogOI8JHHSDzM5tmIgGd9jD_NcscrmKw&usqp=CAU",
@@ -83,22 +139,22 @@
     {
       "title": "10 лет работы",
       "description": "Мы открылись для посетителей в 2010 году",
-      "image": "https://via.placeholder.com/300x200"
+      "image": "https://www.timacad.ru/uploads/media/cache/full_image/uploads/images/20201020/1603175074_IMG_20201016_152641.jpg"
     },
     {
       "title": "1000 экспонатов",
       "description": "У нас представлены экспонаты из разных эпох",
-      "image": "https://via.placeholder.com/300x200"
+      "image": "https://cdn.culture.ru/c/651504.884x442.jpg"
     },
     {
       "title": "500 000 посетителей",
       "description": "Мы рады каждому гостю и стараемся сделать ваш визит незабываемым",
-      "image": "https://via.placeholder.com/300x200"
+      "image": "https://img.riamediabank.ru/images/vol1%2Fmedia%2Foriginal%2Fold%2F86%2F57%2F865771_hires_0%3A0%3A0%3A0_550x550_80_0_1_ria-865771-tn_4435635edb4b2e16d56bc65ef906515a.jpg"
     },
     {
-      "title": "213213",
-      "description": "Мы рады каждому гостю и стараемся сделать ваш визит незабываемым",
-      "image": "https://via.placeholder.com/300x200"
+      "title": "Главный музей города",
+      "description": "Мы являемся главным и самым большим мезеем Москвы",
+      "image": "https://www.planetadorog.ru/img/reports/338/muzey_tekhniki_vadima_zadorozhnogo_11.jpg"
     }
   ],
   "events": [
@@ -107,28 +163,28 @@
       "title": "Открытие выставки автомобилей",
       "date": "2021-05-15",
       "description": "На выставке будут представлены автомобили разных эпох и типов: от раритетных моделей до современных гоночных машин.",
-      "imageUrl": "https://tinypng.com/images/social/website.jpg"
+      "imageUrl": "https://mostrek.ru/wp-content/uploads/2021/05/muzej-transporta-na-vdnh-1.jpg"
     },
     {
       "id": 2,
       "title": "День открытых дверей",
       "date": "2021-06-20",
       "description": "Музей приглашает всех желающих на экскурсию по его экспозициям и техническим объектам, а также на участие в мастер-классах и конкурсах.",
-      "imageUrl": "https://tinypng.com/images/social/website.jpg"
+      "imageUrl": "https://prazhak.ru/wp-content/uploads/2010/12/IMG_9350.jpg"
     },
     {
       "id": 3,
-      "title": "Концерт в зале музыкальных инструментов",
-      "date": "2021-07-10",
-      "description": "В зале музыкальных инструментов состоится концерт классической музыки, на котором звучат произведения известных композиторов, исполненные на античных и современных музыкальных инструментах.",
-      "imageUrl": "https://tinypng.com/images/social/website.jpg"
+      "title": "Технический марафон",
+      "date": "2021-08-15",
+      "description": "Для всех любителей техники проводится технический марафон, в рамках которого посетители музея смогут участвовать в интерактивных мастер-классах по сборке и разборке различных устройств, а также попробовать свои силы в проектировании и создании простых механизмов.",
+      "imageUrl": "https://nizhny800.ru/assets/newsimages/TehMuseum_02.jpg"
     },
     {
       "id": 4,
       "title": "Выставка летательных аппаратов",
       "date": "2021-08-25",
       "description": "На выставке будут представлены самолеты разных эпох и типов: от древних летательных аппаратов до современных боевых машин.",
-      "imageUrl": "https://tinypng.com/images/social/website.jpg"
+      "imageUrl": "https://welcome.mosreg.ru/cache/thumbs/thumb_1920__3882060764.jpg"
     }
   ],
   "technique": [
@@ -175,7 +231,7 @@
         "id": 1,
         "title": "Harley-Davidson Electra Glide",
         "description": "Электра Глайд - круизер от компании Harley-Davidson. Первый раз модель была выпущена в 1965 году.",
-        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "img": "https://static.baza.drom.ru/drom/1683352080309_bulletin",
         "creator": "Harley-Davidson",
         "yearCreate": 1965
       },
@@ -183,7 +239,7 @@
         "id": 2,
         "title": "Indian Chief Classic",
         "description": "Indian Chief Classic - круизер от компании Indian Motorcycle. Первый раз модель была выпущена в 1922 году.",
-        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "img": "https://global-fs.webike-cdn.net/moto_img/cg/9/8950/L_e78ac9151da77d956a0ea85868.jpg",
         "creator": "Indian Motorcycle",
         "yearCreate": 1922
       }
@@ -193,7 +249,7 @@
         "id": 1,
         "title": "Boeing 747",
         "description": "Boeing 747 — широкофюзеляжный пассажирский самолёт американской компании Boeing. Самый крупный пассажирский самолет в мире.",
-        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "img": "https://cariverga.com/wp-content/uploads/2019/03/DSC05824-1024x683.jpg",
         "creator": "Boeing",
         "yearCreate": 1969
       },
@@ -201,7 +257,7 @@
         "id": 2,
         "title": "Airbus A380",
         "description": "Airbus A380 — широкофюзеляжный двухпалубный пассажирский самолёт европейской компании Airbus. Самый большой пассажирский самолет в мире.",
-        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "img": "https://avatars.dzeninfra.ru/get-zen_doc/3614701/pub_5f06fffb2b62c912eb424c25_5f07004bf37d3c5f8ea7ad90/scale_1200",
         "creator": "Airbus",
         "yearCreate": 2005
       }
@@ -211,7 +267,7 @@
         "id": 1,
         "title": "Bell 412",
         "description": "Bell 412 — среднемагистральный многоцелевой вертолёт компании Bell Helicopter Textron. Первый раз модель была выпущена в 1979 году.",
-        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "img": "https://cdn-share.slickpic.com/u/IgorKolokolov/Fridrishafen-2019-C1-Vertolety/org/BA5I2511/p/MTU5NzczNDg%3D/web.jpg",
         "creator": "Bell Helicopter Textron",
         "yearCreate": 1979
       },
@@ -219,7 +275,7 @@
         "id": 2,
         "title": "Mil Mi-26",
         "description": "Mil Mi-26 — крупнейший в мире серийный вертолёт. Разработан в конце 70-х годов в СССР.",
-        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "img": "https://i.ytimg.com/vi/rokjDaPRbJs/maxresdefault.jpg",
         "creator": "Mil Moscow Helicopter Plant",
         "yearCreate": 1980
       }
@@ -229,7 +285,7 @@
         "id": 1,
         "title": "Ford Model T",
         "description": "Ford Model T — автомобиль, выпускавшийся компанией Ford Motor Company с 1908 по 1927 годы. Считается одним из первых массовых автомобилей в мире.",
-        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "img": "https://www.justmedia.ru/upload/media/files/DSC_2000.jpg",
         "creator": "Ford Motor Company",
         "yearCreate": 1908
       },
@@ -237,7 +293,7 @@
         "id": 2,
         "title": "Toyota Corolla",
         "description": "Toyota Corolla — автомобиль, выпускающийся японской компанией Toyota с 1966 года. Является самым продаваемым автомобилем в мире.",
-        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "img": "https://a.d-cd.net/HwAAAgP9feA-960.jpg",
         "creator": "Toyota Motor Corporation",
         "yearCreate": 1966
       }
@@ -247,7 +303,7 @@
         "id": 1,
         "title": "Trek 520",
         "description": "Trek 520 - туристический велосипед с жесткой рамой, предназначенный для дальних поездок и путешествий.",
-        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "img": "https://i.redd.it/l1qeekt8caq41.jpg",
         "creator": "Trek Bicycle Corporation",
         "yearCreate": 1983
       },
@@ -255,7 +311,7 @@
         "id": 2,
         "title": "Giant Defy Advanced Pro 0",
         "description": "Giant Defy Advanced Pro 0 - шоссейный велосипед, разработанный для гонок на дальние дистанции.",
-        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "img": "https://images.immediate.co.uk/production/volatile/sites/21/2022/08/Giant-Defy-Advanced-0-01-9f8cca0.jpg?quality=90&resize=556,370",
         "creator": "Giant Manufacturing Co. Ltd.",
         "yearCreate": 2018
       }
@@ -265,17 +321,17 @@
         "id": 1,
         "title": "T-34",
         "description": "Т-34 — советский средний танк времён Второй мировой войны, созданный конструктором Михаилом Кошкиным. Считается одним из лучших танков в истории.",
-        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
+        "img": "https://img.tourister.ru/files/2/3/6/4/7/5/0/8/original.jpg",
         "creator": "Кировский завод",
         "yearCreate": 1940
       },
       {
         "id": 2,
-        "title": "M1 Abrams",
-        "description": "M1 Abrams — американский основной боевой танк. Был принят на вооружение в 1980 году.",
-        "img": "https://tatmuseum.ru/upload/iblock/eea/ufbafjy5rxkdn0vo0patmwuna07133x2.jpg",
-        "creator": "General Dynamics Land Systems",
-        "yearCreate": 1980
+        "title": "Т-99",
+        "description": "Т-99 — русский основной боевой танк. Был разработан в 2021 году.",
+        "img": "https://avatars.dzeninfra.ru/get-zen_doc/1247665/pub_5adc305b57906ae645347df9_5adc325d830905bcf4812150/scale_1200",
+        "creator": "Уралвагонзавод",
+        "yearCreate": 2021
       }
     ]
   }

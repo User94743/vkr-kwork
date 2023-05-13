@@ -14,6 +14,7 @@ import Cabinet from "./components/Cabinet";
 import PrivateRoute from "./hooks/privateRoute";
 import Location from "./components/Location/Location";
 import Contacts from "./components/Contacts";
+import Vacancies from "./components/Vacancies";
 
 const App: FC = () => {
     const {addUser} = useActions()
@@ -48,6 +49,7 @@ const App: FC = () => {
               <Route path={"/registration"} element={<Registration />} />
               <Route path={"/location/:local"} element={<Location />} />
               <Route path={"/contacts"} element={<Contacts />} />
+              <Route path={"/vacancies"} element={<Vacancies />} />
               <Route element={<PrivateRoute/>}>
                   <Route path={"/cabinet"} element={<Cabinet />} />
               </Route>

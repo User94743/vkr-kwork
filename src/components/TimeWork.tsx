@@ -4,12 +4,7 @@ import styles from "../styles/Timework.module.scss";
     const TimeWork: React.FC = () => {
     return (
         <div className={styles.container}>
-
-
-                <h2 className={styles.title}>Время работы музея</h2>
-
-
-
+                            <h2 className={styles.title}>Время работы музея</h2>
             <div className={styles.schedule}>
                 <div className={styles.days}>
                     <div className={styles.day}>
@@ -42,7 +37,7 @@ import styles from "../styles/Timework.module.scss";
                     </div>
                 </div>
                 <div className={styles.imageContainer}>
-                    <img className={styles.image} src={"https://w.forfun.com/fetch/94/94c56e15f13f1de4740a76742b0b594f.jpeg"} alt="Museum" />
+                    <img className={styles.image} src={"https://warspot-asset.s3.amazonaws.com/articles/announces/000/004/668/source/26-168db8d057d68cf7294c70d3070cedcc.jpg"} alt="Museum" />
                 </div>
             </div>
 

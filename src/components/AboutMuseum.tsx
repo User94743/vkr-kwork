@@ -44,10 +44,10 @@ const Museum: React.FC = () => {
             <div className={styles.content}>
                 <div className={styles.left}>
                     <p className={styles.leftText}>Мы представляем коллекцию из более чем 1000 экспонатов, которые охватывают разные эпохи и культуры. В нашем музее вы можете узнать больше о истории и культуре нашей страны.</p>
-                    <img src={"https://w.forfun.com/fetch/94/94c56e15f13f1de4740a76742b0b594f.jpeg"} alt="" className={styles.leftImage} />
+                    <img src={"https://www.частныемузеи.рф/wp-content/uploads/2019/07/Zadoroznyi-3-1024x682.jpg"} alt="" className={styles.leftImage} />
                 </div>
                 <div className={styles.right}>
-                    <img src={"https://w.forfun.com/fetch/94/94c56e15f13f1de4740a76742b0b594f.jpeg"} alt="" className={styles.rightImage} />
+                    <img src={"https://captour.ru/wp-content/uploads/2019/06/vertolotnyy-tur-v-muzey-tekhnika-vadim-zadorozhnyy-700x490.jpg"} alt="" className={styles.rightImage} />
                     <p className={styles.rightText}>Наша миссия - сохранить историю и культуру нашей страны для будущих поколений. Мы постоянно работаем над тем, чтобы улучшить нашу коллекцию и сделать наш музей более интерактивным и интересным для посетителей.</p>
                 </div>
             </div>

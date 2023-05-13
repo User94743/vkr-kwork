@@ -10,9 +10,9 @@ const Footer: React.FC = () => {
                 <div className={styles.title}>Музей техники города Москва</div>
                 <img className={styles.logo} src={Logo} />
                 <div className={styles.links}>
-                    <a href="#">О музее</a>
-                    <a href="#">Время работы</a>
-                    <a href="#">Вакансии</a>
+                    <Link to={'/about'}>О музее</Link>
+                    <Link to={'/timework'}>Время работы</Link>
+                    <Link to={'/vacancies'}>Вакансии</Link>
                     <Link to={'/contacts'}>Контакты</Link>
                 </div>
 

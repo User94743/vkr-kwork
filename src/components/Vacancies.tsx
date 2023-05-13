@@ -1,15 +1,7 @@
 import React, {useEffect, useState} from "react";
 import styles from "../styles/Vacancies.module.scss";
 import axios from "axios";
-
-interface Vacancy {
-    title: string;
-    experience: string;
-    image: string;
-    description: string;
-    salary: string;
-}
-
+import {Vacancy} from "../types/TypeProps"
 
 const Vacancies: React.FC = () => {
 
@@ -21,7 +13,6 @@ const Vacancies: React.FC = () => {
             setVacancies(res.data)
         })
     }, [])
-
 
     return (
         <div className={styles.container}>

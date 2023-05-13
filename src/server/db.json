@@ -51,44 +51,38 @@
       "tickets": [
         {
           "id": 1,
-          "name": "frs ticket",
-          "dateEvent": "2023-05-01",
-          "datePurchase": "2023-05-01"
+          "name": "Мотоциклы",
+          "dateEvent": "05.01.2023",
+          "datePurchase": "13.05.2023"
         },
         {
           "id": 2,
-          "name": "second ticket",
-          "dateEvent": "2023-05-01",
-          "datePurchase": "2023-05-01"
+          "name": "Мотоциклы",
+          "dateEvent": "05.01.2023",
+          "datePurchase": "13.05.2023"
         },
         {
           "id": 3,
-          "name": "Вертолеты",
-          "dateEvent": "2023-09-05",
-          "datePurchase": "Invalid Date"
-        },
-        {
-          "id": 4,
-          "name": "Самолеты",
-          "dateEvent": "2023-07-05",
-          "datePurchase": "10.05.2023"
-        },
-        {
-          "id": 5,
-          "name": "Самолеты",
-          "dateEvent": "15.05.2023",
-          "datePurchase": "10.05.2023"
-        },
-        {
-          "id": 6,
           "name": "Самолеты",
           "dateEvent": "15.05.2023",
           "datePurchase": "13.05.2023"
         },
         {
-          "id": 7,
+          "id": 4,
           "name": "Вертолеты",
           "dateEvent": "17.04.2023",
+          "datePurchase": "13.05.2023"
+        },
+        {
+          "id": 5,
+          "name": "Велосипеды",
+          "dateEvent": "08.03.2023",
+          "datePurchase": "13.05.2023"
+        },
+        {
+          "id": 6,
+          "name": "Машины",
+          "dateEvent": "14.08.2023",
           "datePurchase": "13.05.2023"
         }
       ],
@@ -98,6 +92,26 @@
         "lastName": "Иванов",
         "middleName": "Александрович",
         "description": "Я просто обожаю посещать выставки и музеи! Это такой увлекательный и захватывающий опыт, который позволяет мне расширять свой кругозор и узнавать новое о различных культурах и искусствах."
+      }
+    },
+    {
+      "email": "admin2@mail.com",
+      "password": "$2a$10$xGhbYUDHFkqIXGKD5cYObe6HWCys2yiIulallGksxRjBdqQ3vPMGq",
+      "id": 2,
+      "tickets": [
+        {
+          "id": 1,
+          "name": "Самолеты",
+          "dateEvent": "15.05.2023",
+          "datePurchase": "13.05.2023"
+        }
+      ],
+      "avatarSrc": "https://madlads.ru/files/avatars/1681492481.jpg",
+      "data": {
+        "firstName": "",
+        "lastName": "",
+        "middleName": "",
+        "description": "Я новый пользователь!"
       }
     }
   ],
@@ -153,7 +167,7 @@
     },
     {
       "title": "Главный музей города",
-      "description": "Мы являемся главным и самым большим мезеем Москвы",
+      "description": "Мы являемся главным и самым большим музеем Москвы",
       "image": "https://www.planetadorog.ru/img/reports/338/muzey_tekhniki_vadima_zadorozhnogo_11.jpg"
     }
   ],

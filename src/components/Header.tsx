@@ -1,5 +1,5 @@
 import '../styles/Header.scss'
-import React, {useEffect, useState} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../images/logo.png"
 import {useAppSelector} from "../hooks/redux";

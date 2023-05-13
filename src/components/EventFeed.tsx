@@ -4,16 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "../styles/EventFeed.module.scss";
 import axios from "axios";
-
-
-
-interface Event {
-    id: number;
-    date: string;
-    description: string;
-    title: string;
-    imageUrl: string;
-}
+import {Event} from '../types/TypeProps'
 
 
 

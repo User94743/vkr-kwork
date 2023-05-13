@@ -2,12 +2,7 @@ import React, {useEffect, useState} from 'react';
 import  styles from '../styles/Locations.module.scss';
 import axios from "axios";
 import {Link} from "react-router-dom";
-interface Location {
-    id: number
-    img: string
-    name: string
-    title: string
-}
+import {Location} from "../types/TypeProps"
 
 
 const Locations: React.FC = () => {

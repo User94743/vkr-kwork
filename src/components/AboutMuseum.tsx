@@ -1,12 +1,8 @@
 import React, {useEffect, useState} from "react";
 import styles from "../styles/AboutMuseum.module.scss";
 import axios from "axios";
+import {AchievementProps} from '../types/TypeProps'
 
-interface AchievementProps {
-    title: string;
-    description: string;
-    image: string;
-}
 
 
 const Achievement: React.FC<AchievementProps> = ({
